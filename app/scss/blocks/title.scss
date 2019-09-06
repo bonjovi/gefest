@@ -1,0 +1,19 @@
+.title {
+    font-family: 'NotoSans Regular';
+
+    &_small {
+        font-size: 18px;
+    }
+
+    &_middle {
+        font-size: 24px;
+    }
+
+    &_large {
+        font-size: 30px;
+    }
+
+    &_bold {
+        font-family: 'NotoSans Bold';
+    }
+}
