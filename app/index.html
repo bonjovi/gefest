@@ -8,6 +8,11 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
 <body>
+	<div class="naming">
+		<div class="naming__name">
+			<img src="img/company-name.svg" alt="">
+		</div>
+	</div>
 	<div class="topline">
 		<div class="topline__logo-section">
 			<div class="topline__logo">
@@ -68,6 +73,7 @@
 		</div>
 	</div><!-- /.topline -->
 	<div class="menu">
+		<img src="img/arrow-right.svg" alt="" class="menu__right-arrow">
 		<ul class="menu__list">
 			<li class="menu__item">
 				<a href="#" class="menu__link text text_middle text_bold">Главная</a>
@@ -80,19 +86,31 @@
 			</li>
 			<li class="menu__item">
 				<a href="#" class="menu__link text text_middle text_bold">Услуги</a>
-				<ul class="menu__submenu">
+				<ul class="menu__sublist">
 					<li class="menu__subitem">
-						<a href="#" class="menu__sublink">
+						<a href="#" class="menu__sublink text text_small">
 							Поиск и проверка поставщиков
 						</a>
+						<ul class="menu__sublist">
+							<li class="menu__subitem">
+								<a href="#" class="menu__sublink text text_micro">
+									Поиск поставщиков
+								</a>
+							</li>
+							<li class="menu__subitem">
+								<a href="#" class="menu__sublink text text_micro">
+									Аудит организаций
+								</a>
+							</li>
+						</ul>
 					</li>
 					<li class="menu__subitem">
-						<a href="#" class="menu__sublink">
+						<a href="#" class="menu__sublink text text_small">
 							Логистика
 						</a>
 					</li>
 					<li class="menu__subitem">
-						<a href="#" class="menu__sublink">
+						<a href="#" class="menu__sublink text text_small">
 							Таможенное сопровождение грузов
 						</a>
 					</li>
