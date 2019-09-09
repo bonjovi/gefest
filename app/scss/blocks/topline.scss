@@ -1,0 +1,54 @@
+.topline {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+
+    &__logo-section {
+        display: flex;
+    }
+
+    &__logo {
+        padding: 20px 30px;
+        background-color: #fff;
+    }
+
+    &__exchange {
+        background: rgba(238, 238, 238, 0.3);
+
+        & table {
+            border-collapse: collapse;
+        }
+
+        & th {
+            border: 1px solid #fff;
+        }
+        & td, th {
+            color: #fff;
+        }
+    }
+
+    &__menu-top {
+        display: flex;
+    }
+
+    &__telephone {
+        color: #fff;
+    }
+
+    &__languages {
+        width: fit-content;
+    }
+
+    &__language {
+        padding: 10px;
+        border-radius: 50%;
+        color: #fff;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $blue;
+        }
+        
+    }
+}

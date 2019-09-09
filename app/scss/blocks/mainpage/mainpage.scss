@@ -1,0 +1,60 @@
+.mainpage {
+    display: flex;
+    min-height: 100vh;
+
+    &__item {
+        width: 33.3333%;
+        height: auto;
+        background-size: cover;
+        background-position: top center;
+        background-repeat: cover;
+        display: flex;
+        flex-direction: column;
+
+        &:hover {
+
+            & .mainpage__time {
+                color: rgba(255, 255, 255, 1);
+            }
+        }
+
+        &:nth-child(1) {
+            background-image: url(../img/BG1.jpg);  
+        }
+
+        &:nth-child(2) {
+            background-image: url(../img/BG2.jpg);  
+        }
+
+        &:nth-child(3) {
+            background-image: url(../img/BG3.jpg);  
+        }
+        
+    }
+
+    &__time {
+        padding-top: 30%;
+        flex: 1;
+        font-family: 'ShareTechMono Regular';
+        font-size: 64px;
+        line-height: 72px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.4);
+    }
+
+    &__button {
+        padding: 59px;
+        text-align: center;
+        color: #fff;
+        background: rgba(0, 79, 152, 0.2);
+        border-top: 1px solid #004F98;
+        box-sizing: border-box;
+
+        &:hover {
+            background: rgba(0, 79, 152, 1);
+            border-top: 1px solid rgba(0, 79, 152, 1);
+        }
+    }
+
+
+}
