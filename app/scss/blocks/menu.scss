@@ -1,9 +1,10 @@
 .menu {
-    width: 33.3333%;
+    width: 0px;
     background: rgba(255, 255, 255, 0.9);
     min-height: 100vh;
     position: absolute;
     right: 0;
+    transition: width 0.5s;
 
     &__list {
         margin: 0;

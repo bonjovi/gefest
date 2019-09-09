@@ -1,0 +1,10 @@
+.header {
+    width: 100%;
+    padding: 40px 0;
+    background: transparent url(../img/about.jpg) 0 0 no-repeat;
+    background-size: cover;
+
+    &__text {
+        color: #fff;
+    }
+}

@@ -1,3 +1,8 @@
 .title {
-    
+    font-family: 'NotoSans Regular';
+    color: #fff;
+
+    &_large {
+        font-size: 96px;
+    }
 }

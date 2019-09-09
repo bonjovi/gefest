@@ -1,3 +1,47 @@
 .naming {
     position: absolute;
+    top: 50%;
+    margin-top: -87px;
+
+    &__name {
+        padding-left: 200px;
+    }
+
+    &__figures {
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+
+    }
+
+    &__line {
+        height: 1px;
+        width: 800px;
+        background-color: #fff;
+
+        &_header {
+            width: 200px;
+
+            &:before {
+                content: "";
+                height: 1px;
+                width: 100%;
+                position: absolute;
+                background-color: #fff;
+                left: 0;
+            }
+        }
+    }
+
+    &__circle {
+        width: 10px;
+        height: 10px;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+
+    &__descriptor {
+        color: #fff;
+        padding-left: 200px;
+    }
 }
